@@ -1,0 +1,26 @@
+
+.icon{
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.iconDiv{
+  margin-left: 9rem;
+  margin-top: 2rem;
+}
+
+.circle{
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: black;
+  border-width: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.numberStyle{
+padding-top: 20%;
+font-size: 5rem;
+}
