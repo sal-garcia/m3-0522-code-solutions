@@ -1,0 +1,28 @@
+.row-class{
+  display: flex;
+}
+
+.col-class{
+  display: flex;
+  flex-direction: column;
+}
+
+.col-class-width{
+  display: flex;
+  flex-direction: column;
+}
+
+.check-mark{
+    color: green;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+.x-Mark{
+  color: red;
+  font-size: 35px;
+  font-weight: bold;
+  margin: 0;
+}
