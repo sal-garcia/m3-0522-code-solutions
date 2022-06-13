@@ -1,0 +1,42 @@
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 50rem;
+  align-items: center;
+}
+
+.toggledOn {
+  background-color: #6AA84F;
+}
+
+.toggledOff {
+  background-color: #E2E2E2;
+}
+
+
+.toggle-switch {
+  position: relative;
+  width: 51px;
+  height: 27px;
+  border-radius: 35px;
+  border: 2px solid grey;
+  margin: 30px;
+}
+
+
+.circle {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  border-radius: 25px;
+  background-color: white;
+}
+
+.circleOn {
+  left: 25px;
+}
+
+.circleOff{
+  left: 0;
+}
