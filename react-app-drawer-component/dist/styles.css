@@ -1,0 +1,31 @@
+.div {
+  width: 2%;
+  height: 5px;
+  background-color: black;
+  margin-top: 6px;
+}
+
+.row{
+  display: flex;
+}
+
+.right{
+  flex-basis: 100%;
+}
+
+body{
+  margin: 0;
+}
+
+.menu-width{
+  width: 20%;
+}
+
+.shade{
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  top:  0;
+  right: 0;
+  background-color: #808080;
+  opacity: 0.5;
