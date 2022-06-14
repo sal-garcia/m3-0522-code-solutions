@@ -1,0 +1,37 @@
+.button{
+  width: 9rem;
+  height: 3rem;
+  font-weight: 600;
+  border-width: 3px;
+  box-shadow: 5px 5px black;
+  }
+
+.darkPurple{
+  background-color: rgb(54, 28, 117);
+  color: white;
+}
+
+.purple {
+  background-color:#674EA7;
+  color: white;
+}
+
+.red{
+  background-color: #E06666;
+  color: white;
+}
+
+.orange{
+  background-color: #F6B26B;
+  color: black;
+}
+
+.yellow{
+  background-color: #FFFF00;
+  color: black;
+}
+
+.white{
+  background-color: white;
+  color: black;
+}
