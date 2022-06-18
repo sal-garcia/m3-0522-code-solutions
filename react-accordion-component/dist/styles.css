@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 18px;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.topic {
+  width: 500px;
+}
+
+.topic-title {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.topic-title h3{
+  margin: 0;
+}
+
+.topic-title,
+.topic-content{
+  padding: 1rem;
+  border: 1px solid black;
+}
