@@ -34,10 +34,7 @@ app.post('/api/grades', (req, res, next) => {
   const { name, course } = req.body;
   const score = Number(req.body.score);
   if (!Number.isInteger(score) || score < 0 || score > 100) {
-    res.status(400).json({
-      error: 'score must be an integer between 0 and 100'
-    });
-    return;
+    throw new ClientError(400, `score must be between 0 and 100`)
   }
   if (!name || !course) {
     throw new ClientError(400, `name course and score are required fields`)
@@ -105,7 +102,7 @@ app.put('/api/grades/:gradeId', (req, res, next) => {
     .then(result => {
       const [updatedGrade] = result.rows;
       if (!updatedGrade) {
-        throw new ClientError(400, `gradeId must be a positive integer`)
+        throw new ClientError(400, `gradeId does not exist`)
       } else {
         res.json(updatedGrade);
       }
@@ -128,7 +125,7 @@ app.delete('/api/grades/:gradeId', (req, res, next) => {
     .then(result => {
       const [deletedGrade] = result.rows;
       if (!deletedGrade) {
-        throw new ClientError(400, `gradeId must be a positive integer`)
+        throw new ClientError(400, `cannot find`)
       } else {
         res.sendStatus(204);
       }
