@@ -1,0 +1,44 @@
+.container{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ flex-basis: 50%;
+}
+
+.arrow{
+  font-size: 10rem;
+  cursor: pointer;
+
+}
+
+.circle{
+  border-radius: 50%;
+  border: solid black;
+  width: 25px;
+  height: 25px;
+  justify-content: space-around;
+}
+
+.img-container{
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+  margin-bottom: 100px;
+}
+
+
+.circles{
+  display: flex;
+  width: 200px;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+
+.fill{
+  background-color: black;
+}
+
+.image{
+  width: 12rem;
+
+}
