@@ -1,0 +1,9 @@
+
+if the path in the app.jsx is equals to user can sign up or sign in then the auth component will be rendered
+and the server will run the post method in the sign up route only if the route is a sign up route
+but if its a sing in route the server will run the post method in the sign in route
+if the user can stay signed in even if they refresh the page then the redirect.jsx component will be rendered
+will run and it will redirect them to the same page because the url will  be replaced by the same value
+if the user is true which it should be if the user is logged in
+if the user wants to sign out then the handleClickSignOut method will run from the app.jsx once
+the user clicks the sign out button in the navbar component
